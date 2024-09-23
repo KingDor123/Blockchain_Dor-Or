@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dadade;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: #333;
+    border-radius: 3px;
+}
+
+
+button {
+    padding: 10px 15px;
+    background-color: #057b83;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e9cbe;
+    cursor: pointer;
+}
+
+#auction-list ul, #transaction-history table {
+    list-style-type: none;
+    padding: 0;
+}
+
+#auction-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+#transactions {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#transactions th, #transactions td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#transactions th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+#transactions tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#transactions tr:hover {
+    background-color: #f1f1f1;
+}
+
+#user-address {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+#messages {
+    margin-top: 20px;
+    color: red;
+}
